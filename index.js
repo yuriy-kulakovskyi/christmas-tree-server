@@ -8,7 +8,7 @@ const GoodModel = require("./models/good");
 app.use(express.json());
 app.use(cors());
 
-mongoose.connect('mongodb+srv://yura:trees@cluster0.go6olsf.mongodb.net/?retryWrites=true&w=majority',
+mongoose.connect(process.env.MONGO,
   {
     useNewUrlParser: true,
   }
@@ -37,4 +37,4 @@ app.get('/read', async (req, res) => {
   })
 });
 
-app.listen(3600, () => console.log("Server is listening on port 3600"));
+app.listen(process.env.PORT || 3600, () => console.log("Server is listening on port 3600"));
