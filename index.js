@@ -3,7 +3,7 @@ const express = require("express");
 const cors = require("cors");
 const app = express();
 
-const GoodModel = require("./good");
+const GoodModel = require("./models/Good");
 
 app.use(express.json());
 app.use(cors());
