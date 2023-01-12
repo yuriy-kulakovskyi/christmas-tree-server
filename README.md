@@ -5,4 +5,4 @@
   Christmas Tree server
   <br>
 </h1>
-This code creates API for the client side.
+This code creates an API for the client side to parse it and place cards of the goods.
