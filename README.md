@@ -5,4 +5,11 @@
   Christmas Tree server
   <br>
 </h1>
+
 <h2 align="center">This code creates an API for the client side to parse it and place cards of the goods.</h2>
+
+<p align="center">
+  <a href="https://chrsitmas-tree-client-p1mr.vercel.app/">Page</a> •
+  <a href="https://nodejs.org/en/">Node.js</a> •
+  <a href="https://www.mongodb.com/">MongoDB</a>
+</p>
